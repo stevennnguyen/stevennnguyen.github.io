@@ -36,6 +36,7 @@
 
 .learn-more {
   background-color: #f7f7f7;
+  padding-bottom: 25px;
 }
 
 .learn-more h3 {
@@ -44,33 +45,16 @@
   font-weight: bold;
 }
 
-.learn-more a {
-  color: #00b0ff;
-}
-
-.neighborhood-guides {
+.highlighted-projects {
     background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
 }
 
-.neighborhood-guides h2 {
+.highlighted-projects h2 {
     color: #393c3d;
     font-size: 24px;
 }
 
-.neighborhood-guides p {
+.highlighted-projects p {
     font-size: 15px;
     margin-bottom: 13px;
-}
-
-.learn-more h3 {
-    text-align: center;
-}
-
-.learn-more ul {
-    text-align: center;
-}
-
-.learn-more li {
-    list-style-type: none;
 }
