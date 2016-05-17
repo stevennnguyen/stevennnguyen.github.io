@@ -1,5 +1,17 @@
+body {
+  background-color: #222222;
+}
+
+.nav {
+  background-color: #3c948b;
+}
+
+.nav h1, .nav p {
+  color: #fff;
+}
+
 .nav a {
-  color: #5a5a5a;
+  color: #fff;
   font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
@@ -35,8 +47,11 @@
 }
 
 .learn-more {
-  background-color: #f7f7f7;
   padding-bottom: 25px;
+}
+
+.learn-more a {
+  color: #fff;
 }
 
 .learn-more h3 {
@@ -56,5 +71,19 @@
 
 .highlighted-projects p {
     font-size: 15px;
-    margin-bottom: 13px;
+  margin-bottom: 13px;
+}
+
+.thumbnail {
+    background-color: #efefef;
+    border: 0px;
+}
+
+#top-footer {
+  background-color: #3c948b;
+}
+
+#bottom-footer {
+  background-color: #222222;
+  color: #fff;
 }
