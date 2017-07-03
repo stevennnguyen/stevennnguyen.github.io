@@ -1,1 +1,37 @@
-Notes for how to use git/github.
+Setting up git/github and commands you often use in your workflow.
+
+Setup from scratch
+$ git config --global user.name "stevennnguyen"
+$ git config --global user.email "steven.nguyen194@gmail.com"
+$ ssh-keygen -t rsa -b 4096 -C "steven.nguyen194@gmail.com"
+[Press enter]
+[Type a passphrase]
+[Type passphrase again]
+$ eval $(ssh-agent -s)
+$ ssh-add ~/.ssh/id_rsa
+$ clip < ~/.ssh/id_rsa.pub
+On Github
+Settings > SSH and GPG keys > New SSH key > Give title/paste key > Add SSH key
+
+Adding repository
+$ cd documents/Github
+Copy Clone SSH url from github
+$ git clone SSHLink
+$ cd newRepository
+
+General Workflow
+*Check your status at anytime
+$ git status
+$ git pull origin master [Get the most updated changes]
+$ git branch <branch_name>
+$ git checkout <branch_name>
+Program...
+Whenever new files are added
+$ git add .
+When you make changes
+$ git commit -m "Message" [Small commits, often. Easier for you, especially for co-programmers.]
+When you're ready to push commits to the local repository
+$ git push origin <branch_name>
+Once your branch changes are approved, you could merge onto master.
+$ git merge <branch_name>
+$ git branch -d <branch_name>
