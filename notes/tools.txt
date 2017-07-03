@@ -1,0 +1,6 @@
+Text Editor
+Visual Studio Code
+Notepad ++
+
+Source Control
+Git
